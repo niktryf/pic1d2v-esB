@@ -1,0 +1,35 @@
+### Input file for PIC-1d2v.
+### Comment lines (starting with '#') will be ignored.
+### Just modify the desired values in the current file.
+ 
+### Time Parameters
+### Total time: time , time step: dt , output interval: interval
+### Enter desired values in specified order (time, dt, interval)
+### Values should be single space - separated
+### The leading 'T' indicates the start of Time parameters - do not remove!
+###
+T 4.99 0.0001 10
+
+### Particle Parameters
+### Number of Ions: nIons , Number of Electrons: nElectrons
+### Enter desired values in specified order (nIons, nElectrons)
+### Values should be single space - separated
+### The leading 'P' indicates the start of Particle parameters - do not remove!
+###
+P 1000 1000
+
+### Space - Grid Parameters
+### Number of grid points: gridPoints , left boundary: left_bound , right boundary: right_bound
+### Enter desired values in specified order (gridPoints, left_bound, right_bound)
+### Values should be single space - separated
+### The leading 'S' indicates the start of Space parameters - do not remove!
+###
+S 101 0.0 6.2831853
+
+### Other Parameters
+### Ion Temperature: T_i , Electron Temperature: T_e , k (perturbation mode): k
+### Enter desired values in specified order ()
+### Values should be single space - separated
+### The leading 'O' indicates the start of Other parameters - do not remove!
+###
+O 0.0 0.0 1

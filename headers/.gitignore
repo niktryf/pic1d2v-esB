@@ -1,0 +1,3 @@
+*.h~
+# Except this file
+!.gitignore
